@@ -1,0 +1,133 @@
+.card {
+  height: 500px;
+  width: 400px;
+  border-radius: 30px;
+  background-color: rgb(44, 12, 44);
+}
+
+#card-2 {
+  height: 280px;
+  width: 500px;
+  overflow-y: scroll;
+  border: none;
+}
+
+.top__div {
+  position: fixed;
+}
+
+body {
+  background: skyblue;
+}
+
+.card h1 {
+  background-color: rgb(196, 67, 196);
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 40px;
+  letter-spacing: 1.2px;
+  font-family: sans-serif;
+}
+
+.card .main__input {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.card .main__input input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  outline: none;
+  text-align: center;
+  color: rgb(163, 151, 151);
+}
+
+::placeholder {
+  text-align: center;
+  font-size: 18px;
+}
+
+.card .main__input button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(163, 151, 151);
+  padding: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.card .main__input button:hover {
+  background-color: rgb(23, 151, 23);
+  color: #fff;
+}
+
+.card .all-text__add {
+  margin-top: 200px;
+  margin-right: 0px;
+  display: flex;
+  color: #fff;
+  gap: 20px;
+  width: 100%;
+  z-index: 1;
+}
+
+.card .all-text__add li {
+  color: rgb(163, 151, 151);
+  list-style: none;
+}
+
+.delet__btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  gap: 20px;
+}
+
+.delet__btn i {
+  background: #fff;
+  color: #000;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  z-index: 1000;
+}
+
+.delet__btn i:hover {
+  background-color: red;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: rgb(44, 12, 44);
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: rgb(44, 12, 44);
+}
